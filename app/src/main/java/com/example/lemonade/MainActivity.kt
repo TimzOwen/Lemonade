@@ -67,6 +67,7 @@ class MainActivity : AppCompatActivity() {
         setViewElements()
         lemonImage!!.setOnClickListener {
             // TODO: call the method that handles the state when the image is clicked
+
         }
         lemonImage!!.setOnLongClickListener {
             // TODO: replace 'false' with a call to the function that shows the squeeze count
@@ -95,6 +96,7 @@ class MainActivity : AppCompatActivity() {
         //  when the the image is clicked we may need to change state to the next step in the
         //  lemonade making progression (or at least make some changes to the current state in the
         //  case of squeezing the lemon). That should be done in this conditional statement
+
 
         // TODO: When the image is clicked in the SELECT state, the state should become SQUEEZE
         //  - The lemonSize variable needs to be set using the 'pick()' method in the LemonTree class
@@ -126,7 +128,35 @@ class MainActivity : AppCompatActivity() {
         // TODO: Additionally, for each state, the lemonImage should be set to the corresponding
         //  drawable from the drawable resources. The drawables have the same names as the strings
         //  but remember that they are drawables, not strings.
-    }
+
+
+//        val textAction: TextView = findViewById(R.id.text_action)
+//        var img: Int = 0
+//        var text: Int = 0
+//        when (lemonadeState) {
+//            SELECT -> {
+//                text = R.string.lemon_select
+//                img = R.drawable.lemon_tree
+//            }
+//            SQUEEZE -> {
+//                text = R.string.lemon_squeeze
+//                img = R.drawable.lemon_squeeze
+//            }
+//            DRINK -> {
+//                text = R.string.lemon_drink
+//                img = R.drawable.lemon_drink
+//            }
+//            RESTART -> {
+//                text = R.string.lemon_empty_glass
+//                img = R.drawable.lemon_restart
+//            }
+//        }
+//        textAction.setText(text)
+//        lemonImage!!.setImageResource(img)
+//    }
+
+
+}
 
     /**
      * === DO NOT ALTER THIS METHOD ===
