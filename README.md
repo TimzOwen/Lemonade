@@ -13,11 +13,12 @@ Pre-requisites
 
 - Complete [Unit 1](https://developer.android.com/courses/android-basics-kotlin/unit-1) of Android Basics in Kotlin
 
-screenshot of the final app
+#### gscreenshot of the final app
 ---------------------------
-Lemonade app             |  Squeeze 
-:-------------------------:|:-------------------------:
+Lemonade app                                          |  Squeeze 
+:----------------------------------------------------:|:-------------------------:
 ![Alt text](screenshot/select.png?raw=true "select")  |  ![Alt text](screenshot/squeez.png?raw=true "squeeze")
+Drink                                                 |  start
 ![Alt text](screenshot/drink.png?raw=true "Title")    |  ![Alt text](screenshot/start.png?raw=true "start")
 
 Getting Started
